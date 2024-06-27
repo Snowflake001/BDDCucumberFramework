@@ -5,7 +5,7 @@ import stepDefinitions.BaseClass;
 
 @CucumberOptions(
 		
-		features = {"src/test/resources/Features/login1.feature"},
+		features = {"src/test/resources/Features/filter.feature"},
 		glue="stepDefinitions",
 		dryRun = false ,
 		monochrome = true,
